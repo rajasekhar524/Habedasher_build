@@ -1,0 +1,423 @@
+.header {
+
+    .header_mobile{
+        display: none;
+    }
+
+    .header_pc{
+        width: 100%;
+        height: 65px;
+        // background-color: var(--white);
+        background: rgba(255, 255, 255, 0);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        position:fixed;
+        color: var(--white);
+        font-weight: 500;
+    
+    
+        &:hover {
+            background-color: var(--white);
+            color: var(--blue);
+            font-weight: 500;
+            transition: background-color 0.4s ease;
+            img{
+                filter: none !important;
+
+            }
+        }
+
+        .header_logo{
+            // width: 25%;
+            margin-left: 4%;
+            display: flex;
+            justify-content: center;
+            // background-color: aqua;
+
+           img{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 12rem;
+            cursor: pointer;
+            filter: brightness(0) invert(1);
+           }    
+        }
+
+    
+        .header_middle{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 7%;
+            
+            .header_element:hover{
+                transition: white 4s ease-in-out;
+                .sub_hover{
+                    background-color: var(--white);
+                    display: block;
+                    width: 100%;
+                    height: 30rem;
+                    // transition: white 4s ease;        
+                }
+            }
+
+
+           .header_element{
+               margin-left: 1rem;
+               margin-right: 1rem;
+               font-size: 0.65rem;
+               letter-spacing: 2px;
+               cursor: pointer;
+               height: 100%;
+               display: flex;
+               align-items: center;
+               a{
+                padding: 0 0 0px 0;
+                border-bottom: 2px solid rgba(255, 255, 255, 0);
+                transition: 0.3s ease;
+                &:hover{
+                    padding: 0 0 1.5px 0;
+                    border-color: var(--blue);
+                }
+               }
+           }
+    
+           .sub_hover{
+            width: 0%;
+            height: 0rem;
+            background-color: var(--black);
+            top: 65px;
+            position: absolute;
+            display: none;
+            left: 0;
+            transition: white 4s ease;
+            
+
+            .sub_hover_section{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                padding: 3rem;
+                justify-content: space-between;
+                background-color: var(--lightgray);
+
+                .sub_hover_section_two_flex{
+                    .sub_hover_section_two_two{
+                        margin-top: 2rem;
+                    }
+                }
+
+                .sub_hover_section_two_one{
+                    .sub_hover_section_section_heading{
+                        font-family: "Le Jeune Deck";
+                        text-transform: capitalize;
+                        font-size: 0.9rem;
+                        margin-bottom: 1rem;
+                        font-weight: 500;
+                    }
+                    .sub_hover_section_section_elements{
+                        font-size: 0.6rem;
+                        width: 100%;
+                        line-height: 1.8rem;
+                        transition: 0.3s ease;
+                        font-weight: 500;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                
+
+                .sub_hover_section_one{
+                    align-items: center;
+                    margin-right: 5rem;
+                    img{
+                        width: 15rem;
+                    }
+                }
+
+                .sub_hover_section_two{
+                    width: 100%;
+                    display: flex;
+                }
+                .sub_hover_section_three{
+                    width: 100%;
+                    display: flex;
+                }
+                .sub_hover_section_four{
+                    width: 100%;
+                    display: flex;
+                }
+                .sub_hover_section_five{
+                    width: 100%;
+                    display: flex;
+                }
+            }
+        }
+           
+        }   
+    
+        .header_right{
+            // width: 20%;
+            width: 30%;
+            margin-right: 3%;
+            font-size: 1.1rem;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            .header_icon_club{
+                position: relative;
+                // color: var(--white);
+                
+                .header_icon_regular{
+                    position: relative;
+                    // color: white;
+                }
+                .header_icon_solid{
+                    top: 0;
+                    position: absolute;
+                    display: none;
+                }
+            }
+            .header_icon{   
+                cursor: pointer;
+                position: relative;
+            
+              
+            }
+        }
+    }
+    .header_pc_black{
+        width: 100%;
+        height: 65px;
+        background-color: var(--white);
+        // background: rgba(0, 0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        position:fixed;
+        color: var(--blue);
+        font-weight: 500;
+        transition:all ease-in-out 0.2s;
+    
+    
+        &:hover {
+            background-color: var(--white);
+            color: var(--blue);
+            font-weight: 500;
+            transition: background-color 0.4s ease;
+            img{
+                filter: none !important;
+
+            }
+        }
+
+        .header_logo{
+            // width: 25%;
+            margin-left: 4%;
+            display: flex;
+            justify-content: center;
+            // background-color: aqua;
+
+           img{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 12rem;
+            cursor: pointer;
+            // filter: brightness(0) invert(1);
+           }    
+        }
+
+    
+        .header_middle{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 7%;
+            
+            .header_element:hover{
+                transition: white 4s ease-in-out;
+                .sub_hover{
+                    background-color: var(--white);
+                    display: block;
+                    width: 100%;
+                    height: 30rem;
+                    // transition: white 4s ease;        
+                }
+            }
+
+
+           .header_element{
+               margin-left: 1rem;
+               margin-right: 1rem;
+               font-size: 0.65rem;
+               letter-spacing: 2px;
+               cursor: pointer;
+               height: 100%;
+               display: flex;
+               align-items: center;
+               a{
+                padding: 0 0 0px 0;
+                border-bottom: 2px solid rgba(255, 255, 255, 0);
+                transition: 0.3s ease;
+                &:hover{
+                    padding: 0 0 1.5px 0;
+                    border-color: var(--blue);
+                }
+               }
+           }
+    
+           .sub_hover{
+            width: 0%;
+            height: 0rem;
+            background-color: var(--black);
+            top: 65px;
+            position: absolute;
+            display: none;
+            left: 0;
+            transition: white 4s ease;
+            
+
+            .sub_hover_section{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                padding: 3rem;
+                justify-content: space-between;
+                background-color: var(--lightgray);
+
+                .sub_hover_section_two_flex{
+                    .sub_hover_section_two_two{
+                        margin-top: 2rem;
+                    }
+                }
+
+                .sub_hover_section_two_one{
+                    .sub_hover_section_section_heading{
+                        font-family: "Le Jeune Deck";
+                        text-transform: capitalize;
+                        font-size: 0.9rem;
+                        margin-bottom: 1rem;
+                        font-weight: 500;
+                    }
+                    .sub_hover_section_section_elements{
+                        font-size: 0.6rem;
+                        width: 100%;
+                        line-height: 1.8rem;
+                        transition: 0.3s ease;
+                        font-weight: 500;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                
+
+                .sub_hover_section_one{
+                    align-items: center;
+                    margin-right: 5rem;
+                    img{
+                        width: 15rem;
+                    }
+                }
+
+                .sub_hover_section_two{
+                    width: 100%;
+                    display: flex;
+                }
+                .sub_hover_section_three{
+                    width: 100%;
+                    display: flex;
+                }
+                .sub_hover_section_four{
+                    width: 100%;
+                    display: flex;
+                }
+                .sub_hover_section_five{
+                    width: 100%;
+                    display: flex;
+                }
+            }
+        }
+           
+        }   
+    
+        .header_right{
+            // width: 20%;
+            width: 30%;
+            margin-right: 3%;
+            font-size: 1.1rem;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            .header_icon_club{
+                position: relative;
+                // color: var(--white);
+                
+                .header_icon_regular{
+                    position: relative;
+                    // color: white;
+                }
+                .header_icon_solid{
+                    top: 0;
+                    position: absolute;
+                    display: none;
+                }
+            }
+            .header_icon{   
+                cursor: pointer;
+                position: relative;
+            
+              
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+
+    .header{
+        width: 100%;
+        .header_mobile{
+            // display: block;
+            width: 100%;
+            height: 64px;
+            // background-color: var(--white);
+            background: rgba(255, 255, 255, 0);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            position:fixed;
+            color: var(--black);
+            font-weight: 500;
+            
+        
+            // &:hover {
+            //     background-color: var(--white);
+            //     color: var(--blue);
+            //     font-weight: 500;
+            //     transition: background-color 0.4s ease;
+            //     filter: none !important;
+                
+            // }
+        }
+        .header_pc{
+            display: none;
+        }
+        .header_pc_black{
+            display: none;
+        }
+    }
+
+}
