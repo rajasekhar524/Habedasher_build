@@ -1,0 +1,46 @@
+.faqssection{
+    padding: 0rem 5rem 5rem 5rem;
+    .accordian {
+        width: 80%;
+        box-shadow: none;
+        margin: 0;
+        padding: 0;
+        min-height: 0;
+        // margin-bottom: 0.4rem;
+        .MuiTypography-body1{
+          font-family: 'Montserrat', sans-serif;
+          font-size: 1.2rem;
+          font-weight: 400;
+          color: rgb(78, 78, 78);
+          letter-spacing: 1px;
+          p{
+            background-color: black;
+          }
+        }
+        .MuiAccordionSummary-root{
+          padding: 0;
+          font-size: 2rem;
+        }
+        .MuiAccordionDetails{
+          font-size: 1rem;
+          background-color: black;
+        }
+        .classHeading{
+            font-weight: 600;
+        }
+        .MuiAccordionDetails-root{
+            padding: 0;
+        }
+        
+      }
+}
+
+@media only screen and (max-width: 480px){
+    .faqssection{
+        padding: 3%;
+    
+        .accordian {
+            width:100%;
+        }
+    }
+}

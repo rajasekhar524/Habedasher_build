@@ -1,0 +1,96 @@
+.paymentcartitem{
+    width: 100%;
+    height: 100%;
+    // max-width: 40rem;
+    margin-top: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    .border_items_address_section{
+        width: 100%;
+        height: 1px;
+        background-color: var(--blue);
+    }
+    .paymentcartitemimage{
+        width: 100%;
+        // margin-right: 2rem;
+
+        img{
+            height: 9rem;
+            width: 9rem;
+            object-fit: contain;
+        }
+    }
+    .paymentcartitemdetails{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        // margin-right: 2rem;  
+        font-size: 0.8rem;
+        font-weight: 500;
+      
+
+        .product_item_price{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            // justify-content: center;
+            align-items:center ;
+            font-weight: 600;
+            text-transform: capitalize;
+            color: var(--blue);
+            text-align: left;
+            // background-color: aqua;
+            .paymentcartitemdetailsitem{
+                // width: 100%;
+                // height: 100%;
+                font-size: 1rem;
+                
+            }
+            .paymentcartitemdetailsitemdis{
+                // width: 100%;
+                // height: 100%;
+                font-size: 0.7rem;
+                color: rgb(75, 75, 75);
+                text-decoration: line-through;
+                margin-right: 1rem;
+            }
+        }
+
+        .paymentcartitemdetailsitemname{
+            width: 100%;
+            height: 100%;
+            font-size: 0.875rem;
+            margin-bottom: 0.4rem;
+            font-weight: 600;
+            text-transform: capitalize;
+
+        }
+        .paymentcartitemdetailsitemsize{
+            width: 100%;
+            height: 100%;
+            font-size: 0.875rem;
+            margin-bottom: 0.6rem;
+            color: rgb(128, 128, 128);
+            text-transform: capitalize;
+        }
+        .paymentcartitemdetailsitemquantity{
+            width: 100%;
+            height: 100%;
+            font-size: 0.875rem;
+            margin-bottom: 0.6rem;
+            text-transform: capitalize;
+            color: rgb(128, 128, 128);
+        }
+        
+    }
+    
+
+    
+}

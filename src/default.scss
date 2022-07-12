@@ -1,22 +1,59 @@
+
 :root{
   --white:rgb(255, 255, 255);
   --black:rgb(0, 0, 0);
   --blue:rgb(0, 17, 53);
   --lightgray:rgb(245, 245, 245);
-}
+  --lightgrayer:rgb(214, 214, 214);
+  --lightdarkgray:rgb(73, 73, 73);
 
+  
+
+ 
+  //margins
+  --marginTop:3rem;
+
+  //fonts
+
+  --onerem:1.1rem;
+  --opfive:1.5rem;
+  --tworem:2rem;
+}
+html {
+  scroll-behavior: smooth;
+}
 body {
     margin: 0;
     // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     //   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     //   sans-serif;
-    // font-family: "Le Jeune Deck";
+    
+    font-family: 'Merriweather', serif;
     font-family: 'Quicksand', sans-serif;
     text-transform: uppercase;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     // background-color: rgb(0, 4, 63);
     font-size: 0.8rem;
+    --swiper-theme-color: white;
+    font-weight: 600;
+     img{
+       border-radius: 2.5px;
+     }
+
+    // .swiper-slide-next{
+    //   display: none;
+    // }
+    .main{
+      height: 100%;
+      width: 100%;
+    }
+
+    a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+      }
+      
     
   }
   
@@ -25,4 +62,61 @@ body {
       monospace;
   }
 
+  .App{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .clipload_poso{
+    width: 100%;
+    height: 100vh;
+    // transform: translate(-50%,-50%);
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: aqua;
+    .clipload_posoon{
+      // background-color: aquamarine;
+    }
+  }
+
+  .Mainlayouto_sec{
+    width: 100%;
+    height: 100%;
+  }
+
+  .Mainlayout_sec{
+    width: 100%;
+    height: 100%;
+
+    .Mainlayout_header{
+      width: 100%;
+      height: 100%;
+
+    }
+    .Mainlayout_children{
+       width: 100%;
+        height: 100%;
+
+    }
+    .Mainlayout_footer{
+        width: 100%;
+        height: 100%;
+
+    }
+  }
+  
+  .size_bg_bl{
+    width: 2rem;
+    height: 2rem;
+    background-color: aqua;
+  }
+
+  .size_bg_wl{
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(27, 51, 51);
+  }
+  
   

@@ -1,0 +1,19 @@
+.formRow {
+
+  input,
+  &.checkoutInput select {
+    display: block;
+    width: 100%;
+    font-size: 0.8rem;
+    line-height: 1;
+    // font-weight: 400;
+    text-align: left;
+    padding: 1.1rem;
+    font-weight: 100;
+    box-sizing: border-box;
+    // margin: 10px auto;
+    border: 1px solid var(--blue);
+    outline: none;
+    color: var(--blue);
+  }
+}

@@ -1,0 +1,28 @@
+.filter_accordian{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .filter_accordian_header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        // background-color: aqua;
+        justify-content: space-between;
+        padding: 1rem;
+        .filter_accordian_header_title{
+
+        }
+        .filter_accordian_header_icon{
+
+        }
+    }
+    .filter_accordian_body{
+        padding: 0 2rem 2rem 2rem;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 50% 50%;
+        grid-gap: 1rem;
+    }
+}

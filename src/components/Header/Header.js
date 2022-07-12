@@ -5,11 +5,11 @@ import { BiSearch } from "react-icons/bi";
 import { BiUser } from "react-icons/bi";
 import { BiHeart } from "react-icons/bi";
 import { BiCart } from "react-icons/bi";
-import unnamed from '../../necfiles/unnamed.png'
 import Header_mobile from './Header_mobile/Headermobile'
+import {Link} from 'react-router-dom'
 
 
-function Header() {
+function Header({click,cstyle,clsection,cltoggle}) {
   const [hover, setHover] = useState(false);
   const [navbar, setNavbar] = useState(false)
   
@@ -33,16 +33,19 @@ function Header() {
   window.addEventListener('scroll', changeHeaderBg)
 
   return (
-    <div className='header'>
+    <div style={{zIndex:"1"}} className='header'>
 
       <div className='header_mobile'>
-          <Header_mobile />
+          <Header_mobile click={click} cstyle={cstyle} clsection={clsection} cltoggle={cltoggle} />
       </div>
 
       <div className={navbar?'header_pc_black':'header_pc'}>
 
           <div className='header_logo'>
-                <img src={unnamed} alt='asdd' />
+              <Link to='/'>
+                <img src='https://i.postimg.cc/D0Fx09R9/logo-large.png' alt='asdd' />
+            </Link>
+                
           </div>
 
           <div className='header_middle'>
@@ -226,18 +229,18 @@ function Header() {
                   women
                 </a>
               </div> */}
-              <div className='header_element'>
-                  <a>
-                  Appointment
-                  </a>
-                  
-              </div>
-              <div className='header_element'>
-                  <a>
-                  Drop
-                  </a>
-               
-              </div>
+              <Link to = '/appointment'>
+                <div className='header_element'>
+                    Appointment
+                </div>
+            </Link>
+            
+            <Link to='/dropdesign'>
+                <div className='header_element'>
+                    Drop
+                </div>
+            </Link>
+              
               <div className='header_element'>
                   <a>
                   Sale

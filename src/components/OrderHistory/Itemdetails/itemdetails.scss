@@ -1,0 +1,38 @@
+.item_details_sec_items{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    // margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    .order_detials_sec_pic{
+        margin-right: 0.5rem;
+        img{
+            width: 4.7rem;
+            height: 4rem;
+            object-fit: cover;
+        }
+    }
+    .order_detials_sec_details{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-transform: capitalize;
+        .order_detials_sec_brand{
+            margin-bottom: 0.1rem;
+        }
+        .order_detials_sec_name{
+            margin-bottom: 0.1rem;
+            font-weight: 300;
+            font-size: 0.8rem;
+        }
+        .order_detials_sec_size{
+            margin-bottom: 0.1rem;
+            font-weight: 300;
+            font-size: 0.8rem;
+        }
+    }
+}

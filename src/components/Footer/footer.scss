@@ -1,0 +1,60 @@
+.footer_sec{
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+     p{
+         font-size: 0.6875;
+     }
+    .footer_line{
+        border-top: 1px solid #d1d1d1;
+        padding: 0 1.25rem; 
+        margin-bottom: 0.9375rem;
+    }
+    .footer_sec_li{
+        width: 100%;
+        height: 100%;
+        .footer_sec_li_li_company{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width:calc( 100% - 1.50rem);
+            padding: 0 0.25rem 0 1.25rem;
+            margin-bottom: 0.9375rem;
+            font-size: 0.875rem;
+            // background-color: aqua;
+        }
+        .footer_sec_li_li{
+            width:calc( 100% - 2.50rem);
+            padding: 0 1.25rem;
+            margin-bottom: 0.9375rem;
+            text-transform: capitalize;
+            font-size: 0.6875rem;
+        }
+    }
+    .footer_sec_mi{
+        color: #4b5e96;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: .6875rem;
+        letter-spacing: 0;
+        
+        font-style: Normal;
+        font-weight: 400;
+        padding-top: 1.875rem;
+        padding-bottom: 1.875rem;
+
+        .footer_sec_mi_mi{
+            line-height: 2em;
+            // display: initial;
+            color: rgb(128, 128, 128);
+            text-decoration: none;
+            margin: 0 3em;
+            letter-spacing: .01875rem;
+            text-transform: capitalize;
+            font-size: 0.875rem;
+            font-weight: 400;
+        }
+    }
+
+}

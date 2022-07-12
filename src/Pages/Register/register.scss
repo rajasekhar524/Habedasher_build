@@ -1,0 +1,223 @@
+.logging{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    // align-items: center;
+    // margin-top: 65px;
+
+    .login_manual_button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .black_margin{
+        width: 100%;
+        height: 65px;
+        background-color: var(--blue);
+    }
+  
+    .input_class[type=text] {
+        // width: calc(100% - 4.15rem);
+        margin-bottom: 1rem;
+    }
+    input[type=password] {
+        // width: calc(100% - 4.15rem);
+        
+    }
+    .input_class{
+        // width: calc(100%-;
+        width: calc(100% - 4rem);
+        font-size: 0.7rem;
+        color: var(--blue);
+        letter-spacing: 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid var(--lightdarkgray);
+        padding: 1.3rem 2rem 1.3rem 2rem;
+        margin-bottom: 1rem;
+      }
+    .input_class_email{
+        // width: calc(100%-;
+        width: calc(100% - 4rem);
+        font-size: 0.7rem;
+        color: var(--blue);
+        letter-spacing: 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid var(--lightdarkgray);
+        padding: 1.3rem 2rem 1.3rem 2rem;
+        margin-bottom: 1rem;
+      }
+      .input_class_pass{
+        // width: calc(100%-;
+        width: 100%;
+        font-size: 0.7rem;
+        color: var(--blue);
+        letter-spacing: 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid var(--lightdarkgray);
+        padding: 1.3rem 2rem 1.3rem 2rem;
+      }
+    .loggin_title{
+        font-weight: 1000;
+        // text-transform: capitalize;
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .logging_buttons{
+        display: flex;
+        flex-direction: row;
+        font-size: var(--onerem);
+        border: 1px solid var(--lightgray);
+        .sign_in{
+            width: 100%;
+            display: flex;
+            justify-content:center ;
+            align-items: center;
+            text-align: center;
+            border-top: 0.5px solid var(--lightgrayer);
+            padding: 1rem 2rem 1rem 2rem;
+            text-transform: capitalize;
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+            font-size: 1rem;
+           
+        }
+        .sign_in_shadow{
+            width: 100%;
+            display: flex;
+            justify-content:center ;
+            align-items: center;
+            text-align: center;
+            border: 1px solid rgb(228, 228, 228);
+            padding: 1rem 2rem 1rem 2rem;
+            text-transform: capitalize;
+            -moz-box-shadow:    inset 0 0 50px var(--lightgrayer);
+            -webkit-box-shadow: inset 0 0 50px var(--lightgrayer);
+            box-shadow:         inset 0 0 50px var(--lightgrayer);
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        .sign_up{
+            width: 100%;
+            display: flex;
+            justify-content:center ;
+            align-items: center;
+            text-align: center;
+            border-top: 0.2px solid var(--lightgrayer);
+            padding: 1rem 2rem 1rem 2rem;
+            text-transform: capitalize;
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        .sign_up_shadow{
+            width: 100%;
+            display: flex;
+            justify-content:center ;
+            align-items: center;
+            text-align: center;
+            border: 1px solid rgb(228, 228, 228);
+            padding: 1rem 2rem 1rem 2rem;
+            text-transform: capitalize;
+            -moz-box-shadow:    inset 0 0 50px var(--lightgrayer);
+            -webkit-box-shadow: inset 0 0 50px var(--lightgrayer);
+            box-shadow:         inset 0 0 50px var(--lightgrayer);
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+    }
+
+    .login_layout{
+        // background-color: aqua;
+        // width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        // width: calc(100% - 3rem);
+        padding: 1.5rem;
+        // justify-content: center;
+        // align-items: center;
+        .signin_layout{
+            .social_button{
+                .social_button_icon{
+                    margin-bottom: 1rem;
+                }
+            }
+            .social_button_or{
+                text-align: center;
+                margin-bottom: 1.5rem;
+                margin-top: 1.5rem;
+                text-transform: capitalize;
+            }
+            
+            .login_manual{
+                // display: none;
+                
+                .login_manual_password{
+                    text-transform: capitalize;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    margin-bottom: 1rem;
+                    .login_manual_pass{
+                        font-size: 0.6rem;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .signin_layout_hide{
+            display: none;
+            visibility: 0;
+            opacity: 0;
+        }
+        .signup_layout{
+            .social_button{
+                .social_button_icon{
+                    margin-bottom: 1rem;
+                }
+            }
+            .login_manual{
+
+                .login_manual_email{
+                    // width: calc(100% - 3rem);
+                }
+                .login_manual_password{
+                    text-transform: capitalize;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    margin-bottom: 1rem;
+                    .login_manual_pass{
+                        font-size: 0.6rem;
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .social_button_or{
+                text-align: center;
+                margin-bottom: 1.5rem;
+                margin-top: 1.5rem;
+                text-transform: capitalize;
+            }
+        }
+        .signup_layout_hide{
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.product_simililar_layout{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    margin-bottom: 2rem;
+    .product_simililar{
+        .product_simililar{
+            img{
+                background-color: rgb(248, 248, 248);
+                width: 16rem;
+                height: 16rem;
+                object-fit: contain;
+            }
+        }
+        .product_simililar_name{
+            font-size: 0.6875rem;
+            width: 70%;
+            // height: 2.1rem;
+            margin-left: 2.8rem;
+            margin-top: 0.6rem;
+            text-align: center;
+        }
+        .product_simililar_price{
+            color: var(--blue);
+            // margin-left: 3rem;
+            margin-top: 0.4rem;
+            font-size: 0.6875rem;
+            font-weight: 600;
+            text-align: center;
+        }
+    }
+}

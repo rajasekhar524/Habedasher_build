@@ -1,0 +1,157 @@
+.search_style_sec{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: rgb(255, 255, 255);
+    .search_folder{
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        // align-items: center;
+        margin-bottom: 1.1rem;
+        padding: 0 1.4rem;
+        margin-top: 1rem;
+        width: calc(100%-3rem);
+        height: 3rem;
+        .seaerch_folder_item{
+            padding: 5px;
+        }
+    }
+    .search_input{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        align-items: center;
+        border-top: 1.5px solid rgb(238, 238, 238);
+        border-bottom: 1.5px solid rgb(238, 238, 238);
+        // padding-left:1rem ;
+        input{
+            width: 100%;
+            padding: 1rem;
+            border: 1px solid whitesmoke;
+            outline: none;
+            font-size: 1rem;
+            letter-spacing: 1.5px;
+            color: rgb(19, 19, 19);
+            border-bottom: 2px solid var(--blue);
+            padding-left:2.5rem ;
+
+        }
+        ::placeholder{
+            color: rgb(204, 204, 204);
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.8rem;
+        }
+        .send_icon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            left: 17px;
+            // color: rgb(4, 95, 131);
+            color: #041e3a;
+            font-size: 1.2rem;
+            font-weight: 100;
+            opacity: 0.8;
+        }
+    }
+
+    .Suggested_Search{
+        padding: 0 1.25rem;
+        font-weight: 600;
+        font-size: 0.85rem;
+        text-transform: capitalize;
+        margin: 1.25rem 0;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+    }
+
+    .Popular_Categories{
+        padding: 0 1.25rem;
+        font-weight: 600;
+        font-size: 1.1rem;
+        text-transform: capitalize;
+        margin: 1.25rem 0;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 500;
+    }
+ 
+
+    .search_shortcuts{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.1rem;
+        padding: 0 1.25rem;
+        width: calc(100%-3rem);
+        // height: 3rem;
+        // background-color: rgb(179, 108, 108);
+        // padding: 0.5rem 1rem 0.5rem 1rem;
+
+        .search_shortcuts_icon{
+            // transform: rotate(-45deg);
+            font-size: 0.7rem;
+            color: #797979;
+            display: flex;
+            margin-right: 0.4rem;
+            // align-items: center;
+            // height: 100%;
+        }
+        .search_shortcuts_text{
+            display: flex;
+            // justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            // background-color: #9c9c9c;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+            font-size: .7rem;
+            font-weight: 400;
+            color: #041e3a;
+            
+      
+        }
+    }
+
+    .cats_search_sec{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 0 1.25rem;     
+        grid-column-gap: 12px;
+        grid-row-gap: 12px;
+        // grid-template-columns: 50% 50%;
+        width: calc(100% - 3.2rem);
+        transform: translateZ(0)!important;  
+         
+        .cats_search_sec_lay{
+            position: relative;  
+            .cats_search_sec_img{
+                // padding: 0 1.25rem;   
+                position: relative;  
+                img{
+                    border-radius: 5px;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .cats_search_sec_name{
+                position: absolute;
+                bottom: 1rem;
+                left: 10px;
+                font-family: 'Playfair Display', serif;
+                color: white;
+                letter-spacing: 3px;
+                font-weight: 500;
+                background: rgba(185, 185, 185, 0.1);
+                font-size: 0.6rem;
+
+            }
+        }
+    }
+
+
+}
